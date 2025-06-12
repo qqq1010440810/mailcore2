@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = 'https://github.com/your-org/mailcore2'
   s.license          = { :type => 'BSD', :file => 'LICENSE' }
-  s.author           = { 'YourName' => 'you@example.com' }
-  s.source           = { :git => 'https://github.com/your-org/mailcore2.git', :tag => s.version.to_s }
+  s.author           = { 'gxf' => 'gxf@163.com' }
+  s.source           = { :git => 'https://github.com/qqq1010440810/mailcore2.git', :tag => s.version.to_s }
 
   s.platform     = :ios, '12.0'
   s.osx.deployment_target = '10.13'
