@@ -87,8 +87,9 @@ Pod::Spec.new do |s|
     }
     
     # 依赖库
-    core.libraries = 'c++', 'z', 'iconv', 'xml2', 'resolv'
-    
+    core.libraries = ["xml2", "iconv", "z", "c++", "resolv"]
+    core.prepare_command = "./scripts/build-mailcore2-ios-cocoapod.sh"
+
     # 系统框架
     core.frameworks = 'Security', 'CFNetwork', 'Foundation', 'SystemConfiguration'
     
